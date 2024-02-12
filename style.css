@@ -57,6 +57,7 @@ header h1 {
       content: counter(quiz-item);
 
       background-color: #475569;
+      min-width: 28px;
       width: 28px;
       height: 28px;
       font-size: 12px;
@@ -104,7 +105,7 @@ input:checked{
 input:checked:before {
   content:"";
   width: 10px;
-  height: 10;
+  height: 10px;
 
   background-color: #A3E635;
   border-radius: 50px;
